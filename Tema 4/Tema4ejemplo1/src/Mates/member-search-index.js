@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"Mates","c":"ClaseMatematicas","l":"ClaseMatematicas()"},{"p":"Mates","c":"ClaseMatematicas","l":"PI"},{"p":"Mates","c":"ClaseMatematicas","l":"senoAngulo(double)"}]
