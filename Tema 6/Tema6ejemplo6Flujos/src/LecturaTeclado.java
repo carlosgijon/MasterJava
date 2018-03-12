@@ -12,5 +12,7 @@ public class LecturaTeclado {
         // Se utliza el metodo readLine() para introducir una linea de caracteress. Con el método read() solo se introduce un caracter
         nombreUsuario = lector.readLine();
         System.out.println("Bienvenido a nuestra aplicacion " +nombreUsuario+ "!!!");
+
+        // Voy a hacer un cambio para probar github
     }
 }
