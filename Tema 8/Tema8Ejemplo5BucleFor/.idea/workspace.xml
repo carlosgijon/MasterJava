@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="073162fc-e8eb-4efe-b74a-b3c0e31ed8da" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Tema8Ejemplo4BucleDoWhile/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Tema8Ejemplo5BucleFor.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/BucleFor.java" />
-      <change beforePath="$PROJECT_DIR$/../Tema8Ejemplo4BucleDoWhile/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Tema8Ejemplo4BucleDoWhile/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="073162fc-e8eb-4efe-b74a-b3c0e31ed8da" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -229,12 +222,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521626858790</updated>
-      <workItem from="1521626860008" duration="491000" />
+      <workItem from="1521626860008" duration="602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="491000" />
+    <option name="totallyTimeSpent" value="602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2048" height="1082" extended-state="0" />
