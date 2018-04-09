@@ -42,10 +42,12 @@ public class TemperaturaAnual {
 
             contador++;
         }
-
+        System.out.println("---------------------------------------------------------------");
+        System.out.println("Datos de las temperaturas anuales");
         System.out.println("La temperatura máxima fue de " +maxima+ " grados");
         System.out.println("La temperatura mínima fue de " +minima+ " grados");
         System.out.println("La temperatura media fue de " +(media / meses.length)+ " grados");
+        System.out.println("---------------------------------------------------------------");
 
     }
 }
