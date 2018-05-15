@@ -74,6 +74,7 @@ public class SwingFC implements ActionListener {
         }
         if(tf_archivo_2.getText().equals("")){
             lbl_resultado.setText("Falta el nombre del segundo archivo");
+            return;
         }
         
         // Comparar archivos
