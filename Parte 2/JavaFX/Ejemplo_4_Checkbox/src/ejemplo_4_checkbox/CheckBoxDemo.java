@@ -52,6 +52,9 @@ public class CheckBoxDemo extends Application {
         
         // Creamos los checkboxes
         chb_smartphone = new CheckBox("Smartphone");
+        // smartphone puede ser indeterminada
+        chb_smartphone.setAllowIndeterminate(true);
+        
         chb_tablet = new CheckBox("Tablet");
         chb_portatil = new CheckBox("Portatil");
         chb_sobremesa = new CheckBox("Sobremesa");
@@ -65,6 +68,9 @@ public class CheckBoxDemo extends Application {
             public void handle(ActionEvent ae) {
                 if(chb_smartphone.isSelected()) {
                     lbl_respuesta.setText("se ha seleccionado Smartphone");
+                }
+                else if(chb_smartphone.isIndeterminate()) {
+                    lbl_respuesta.setText("Smartphone es indeterminada");
                 }
                 else {
                     lbl_respuesta.setText("Se ha quitado Smartphone");
@@ -113,7 +119,7 @@ public class CheckBoxDemo extends Application {
             mostrar_todo();
         });
         
-        // Añadimos los controles a la escena
+        // Añadimos los controles a la escena en orden de visualización
         nodo_raiz.getChildren().addAll(
                 cabecera,
                 chb_smartphone,
