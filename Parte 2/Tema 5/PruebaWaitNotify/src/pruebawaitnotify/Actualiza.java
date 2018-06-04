@@ -16,7 +16,7 @@ public class Actualiza extends Thread {
     @Override
     public void run() {
         System.out.println("Método run de Actualiza");
-        actualiza();
+        fichas[0].operar(MIN_PRIORITY);
     }
     
     // Los métodos wait y notify deben estar dentro de un método 
@@ -41,24 +41,24 @@ public class Actualiza extends Thread {
         String linea = "";
         System.out.println("Comenzando actualización");
         
-        try {
-            System.out.println("Introduzca nombre:");
-            fichas[0].nombre = escritura_teclado.readLine();
-            
-            System.out.println("Introduzca apellidos:");
-            fichas[0].apellidos = escritura_teclado.readLine();
-            
-            System.out.println("Introduzca direccion:");
-            fichas[0].direccion = escritura_teclado.readLine();
-            
-            System.out.println("Introduzca telefono:");
-            fichas[0].telefono = Integer.parseInt(escritura_teclado.readLine());
+//        try {
+//            System.out.println("Introduzca nombre:");
+//            fichas[0].nombre = escritura_teclado.readLine();
+//            
+//            System.out.println("Introduzca apellidos:");
+//            fichas[0].apellidos = escritura_teclado.readLine();
+//            
+//            System.out.println("Introduzca direccion:");
+//            fichas[0].direccion = escritura_teclado.readLine();
+//            
+//            System.out.println("Introduzca telefono:");
+//            fichas[0].telefono = Integer.parseInt(escritura_teclado.readLine());
             
             // ponemos sincronizar para que notifique a los hilos
-            sincronizar(false);
-        }
-        catch(IOException e) {
-            System.out.println("ERROR");
-        }
+//           sincronizar(false);
+//        }
+//        catch(IOException e) {
+//            System.out.println("ERROR");
+//        }
     }
 }

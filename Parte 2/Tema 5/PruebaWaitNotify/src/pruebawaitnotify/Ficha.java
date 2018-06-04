@@ -4,6 +4,10 @@
  */
 package pruebawaitnotify;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Ficha implements java.io.Serializable {
     protected String nombre;
     protected String apellidos;
@@ -29,5 +33,37 @@ public class Ficha implements java.io.Serializable {
                        "Telefono: " +telefono+ "\n"+
                        "________________________________________\n";
         return texto;
-    } 
+    }
+    
+    public synchronized void operar(int opcion) {
+        BufferedReader escribir_teclado_syn = new BufferedReader (
+                                new InputStreamReader(System.in));
+        switch(opcion) {
+            case 1: 
+                try {
+                    System.out.println("Introduzca nombre: ");
+                    this.nombre = escribir_teclado_syn.readLine();
+                    
+                    System.out.println("Introduzca apellido: ");
+                    this.apellidos = escribir_teclado_syn.readLine();
+                    
+                    System.out.println("Introduzca direccion: ");
+                    this.direccion = escribir_teclado_syn.readLine();
+                    
+                    System.out.println("Introduzca telefono: ");
+                    this.telefono = Integer.parseInt(
+                            escribir_teclado_syn.readLine());
+                    
+                    
+                }
+                catch(IOException e) {
+                    System.out.println("Error");
+                }
+                break;
+                
+            case 2:
+                System.out.println("Saliendo del método operar");
+                break;
+        }
+    }
 }
