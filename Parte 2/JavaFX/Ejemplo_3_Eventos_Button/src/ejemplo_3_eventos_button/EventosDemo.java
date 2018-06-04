@@ -22,14 +22,9 @@ public class EventosDemo extends Application {
         escenario.setTitle("Usando Botones en JavaFx");
         FlowPane nodo_raiz = new FlowPane(10,10);
         nodo_raiz.setAlignment(Pos.CENTER);
-        
-        // Creamos la escena
         Scene escena = new Scene(nodo_raiz, 300, 100);
-        
-        // asignamos la escena al escenario
         escenario.setScene(escena);
         
-        // creamos la etiqueta
         lbl_etiqueta = new Label("Presiona un botón");
         
         // Creamos dos botones
