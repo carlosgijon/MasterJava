@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ejemplo_6_metodos_url.FXMLDocumentController">
+   <children>
+      <Button fx:id="btn_URL" contentDisplay="CENTER" layoutX="297.0" layoutY="622.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Obtener datos" textAlignment="CENTER" />
+      <Label fx:id="lbl_cabecera" alignment="CENTER" layoutX="18.0" layoutY="110.0" prefWidth="670.0" text="Pulse el boton para los datos del host" textAlignment="CENTER" AnchorPane.bottomAnchor="567.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="110.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_url_principal" alignment="CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="282.0" prefHeight="30.0" prefWidth="670.0" textFill="#00c264" AnchorPane.bottomAnchor="401.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="282.0" />
+      <Label fx:id="lbl_url_absoluta" alignment="CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="312.0" prefHeight="30.0" prefWidth="670.0" textFill="#00c264" AnchorPane.bottomAnchor="371.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="312.0" />
+      <Label fx:id="lbl_host" alignment="CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="346.0" prefHeight="30.0" prefWidth="670.0" textFill="#00c264" AnchorPane.bottomAnchor="341.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="346.0" />
+      <Label fx:id="lbl_puerto" alignment="CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="405.0" prefHeight="30.0" prefWidth="670.0" textFill="#00c264" AnchorPane.bottomAnchor="311.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="405.0" />
+      <Label fx:id="lbl_archivo" alignment="CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="464.0" prefHeight="30.0" prefWidth="670.0" textFill="#00c264" AnchorPane.bottomAnchor="281.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="464.0" />
+      <Label fx:id="lbl_error" alignment="CENTER" layoutX="15.0" layoutY="709.0" prefWidth="670.0" textAlignment="CENTER" textFill="#f80000" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_protocolo" alignment="CENTER" contentDisplay="CENTER" layoutX="17.0" layoutY="473.0" prefHeight="30.0" prefWidth="670.0" textFill="#00c264" AnchorPane.bottomAnchor="251.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+   </children>
+</AnchorPane>
