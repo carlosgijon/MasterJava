@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ejemplo_5_clase_url.FXMLDocumentController">
+   <children>
+      <Label fx:id="lbl_cabecera" alignment="CENTER" layoutX="10.0" layoutY="47.0" prefHeight="17.0" prefWidth="670.0" text="Presione el boton para ver una URL" textAlignment="CENTER" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="47.0" />
+      <Button fx:id="btn_URL" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="124.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Obtener URL" AnchorPane.bottomAnchor="49.0" AnchorPane.leftAnchor="301.0" AnchorPane.rightAnchor="301.0" AnchorPane.topAnchor="124.0" />
+      <Label fx:id="lbl_URL" alignment="CENTER" layoutX="10.0" layoutY="71.0" prefHeight="17.0" prefWidth="670.0" textAlignment="CENTER" textFill="#0e8a00" AnchorPane.bottomAnchor="112.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="71.0" />
+      <Label fx:id="lbl_error" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" layoutY="169.0" prefHeight="17.0" prefWidth="670.0" textAlignment="CENTER" textFill="RED" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="169.0" />
+   </children>
+</AnchorPane>
