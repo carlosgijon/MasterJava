@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Aplicación servlet 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.6/css/uikit.min.css" />
+
+        <!-- UIkit JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.6/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.6/js/uikit-icons.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="uk-container">
+            <h1 style="text-align: center;">Pasar datos utilizando un servlet</h1>
+            <form name="form" action="ServletInformacion">
+                <table class="uk-table uk-table-striped">
+                    <tr>
+                        <td>Nombre</td>
+                        <td><input class="uk-input" type="text" name="txtnombre"/></td>
+                    </tr>
+                    <tr>
+                        <td>Edad</td>
+                        <td><input class="uk-input" type="text" name="txtedad"></td>
+                    </tr>
+                     <tr>
+                        <td>Direccion</td>
+                        <td><input class="uk-input" type="text" name="txtdireccion"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" class="uk-button uk-button-primary" value="Enviar datos" />
+                        </td>
+                    </tr>
+                </table>
+                
+            </form>
+        </div>
+    </body>
+</html>
