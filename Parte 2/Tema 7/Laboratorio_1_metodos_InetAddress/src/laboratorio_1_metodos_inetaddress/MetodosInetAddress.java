@@ -73,6 +73,7 @@ public class MetodosInetAddress extends Application {
                         texto_array_ip += array_ip[i];
                     }
                     
+                    // Poner los puntos entre digitos
                     if(i < (array_ip.length - 1)) {
                         texto_array_ip += ".";
                     }

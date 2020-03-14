@@ -7,7 +7,7 @@ public class MetodosSocket {
 
     public static void main(String[] args) {
         try {
-            Socket mi_socket = new Socket("200.200.1.12",8810);
+            Socket mi_socket = new Socket("localhost",8810);
             BufferedReader entrada = new BufferedReader(new InputStreamReader(mi_socket.getInputStream()));
             
             // Leer los datos
